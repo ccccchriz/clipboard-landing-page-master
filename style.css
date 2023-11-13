@@ -109,6 +109,22 @@ body {
   opacity: 0.7;
 }
 
+.main--h2 {
+  font-size: 1.9rem;
+  color: hsl(var(--clr-neutral-300));
+}
+
+.main--h3 {
+  font-size: 1.6rem;
+  color: hsl(var(--clr-neutral-300));
+}
+
+.main--p {
+  font-size: 1rem;
+  color: hsl(var(--clr-neutral-200));
+  margin-bottom: 2rem;
+}
+
 /* 
   Header
 */
@@ -129,17 +145,6 @@ header > img {
   margin: 4rem 0 2rem 0;
 }
 
-header > h2 {
-  font-size: 1.9rem;
-  color: hsl(var(--clr-neutral-300));
-}
-
-header > p {
-  font-size: 1rem;
-  color: hsl(var(--clr-neutral-200));
-  margin-bottom: 2rem;
-}
-
 /* 
   First section
 */
@@ -152,24 +157,8 @@ header > p {
   padding: 2rem;
 }
 
-.keep-track > h2 {
-  font-size: 1.9rem;
-  color: hsl(var(--clr-neutral-300));
-}
-
-.keep-track > p {
-  font-size: 1rem;
-  color: hsl(var(--clr-neutral-200));
-  margin-bottom: 2rem;
-}
-
 .keep-track > img {
   margin-bottom: 2rem;
-}
-
-.keep-track > h3 {
-  font-size: 1.6rem;
-  color: hsl(var(--clr-neutral-300));
 }
 
 /* 
@@ -184,13 +173,74 @@ header > p {
   gap: 1rem;
 }
 
-.access-anywhere > h2 {
-  font-size: 1.9rem;
+/* 
+  Thrid section
+*/
+
+.supercharge {
+  display: grid;
+  place-items: center;
+  text-align: center;
+  padding: 2rem;
+  gap: 1rem;
+}
+
+.supercharge > img {
+  margin: 1rem 0;
+}
+
+/* 
+  Fourth section with logos
+*/
+
+.logos {
+  display: grid;
+  place-items: center;
+  text-align: center;
+  padding: 2rem;
+  gap: 3rem;
+  margin: 5rem 0;
+}
+
+/* 
+  Fifth section
+*/
+
+.download {
+  display: grid;
+  place-items: center;
+  text-align: center;
+  padding: 2rem;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+/* 
+  Footer
+*/
+
+footer {
+  display: grid;
+  place-items: center;
+  text-align: center;
+  padding: 2rem;
+  gap: 1rem;
+  background-color: hsla(var(--clr-neutral-200), 0.1);
+}
+
+footer > img {
+  width: 4rem;
+  margin: 1rem;
+}
+
+footer > a {
+  text-decoration: none;
   color: hsl(var(--clr-neutral-300));
 }
 
-.access-anywhere > p {
-  font-size: 1rem;
-  color: hsl(var(--clr-neutral-200));
-  margin-bottom: 2rem;
+.social-media {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin: 1rem;
 }
