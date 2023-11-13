@@ -238,9 +238,18 @@ footer > a {
   color: hsl(var(--clr-neutral-300));
 }
 
+footer > a:hover {
+  color: hsl(var(--clr-primary-cyan));
+}
+
 .social-media {
   display: flex;
   align-items: center;
   gap: 2rem;
   margin: 1rem;
+}
+
+.social-media > a > img:hover {
+  filter: brightness(0) saturate(100%) invert(58%) sepia(67%) saturate(426%)
+    hue-rotate(122deg) brightness(91%) contrast(98%);
 }
